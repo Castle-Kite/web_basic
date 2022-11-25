@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>smart join</title>
+<link rel="stylesheet" type="text/css" href="../css/w3.css">
+<link rel="stylesheet" type="text/css" href="../css/chopa.css">
+<style type="text/css">
+	label {
+		font-size: 14pt;
+		line-height: 200%;
+		color: gray;
+	}
+</style>
+</head>
+<body>
+	<div class="w3-content mxw650 w3-center">
+		<h1 class="w3-pink w3-round-medium w3-card-4 w3-padding">Smart join</h1>
+		<div class="w3-col w3-border w3-card-4 w3-round-medium">
+			<div class="w3-padding mgt20">
+				<label class="w3-col m3 w3-right-align pdr10">이 름 :</label>
+				<input type="text" name="id" id="id" placeholder="이름을 입력하세요!"
+				class="w3-col m7 w3-padding w3-text-gray w3-input w3-border">
+			</div>
+			<div class="w3-padding w3-col mgt10">
+				<label class="w3-col m3 w3-right-align pdr10">I D :</label>
+				<input type="text" name="id" id="id" placeholder="아이디을 입력하세요!"
+				class="w3-col m5 w3-padding w3-text-gray w3-input w3-border">
+				<div class="w3-col m2 w3-center-align mgl10 w3-button w3-blue w3-left w3-rast pdr10 pdl10" 
+						style="width: 92px; font-weight: 10px;">check</div>
+			</div>
+			<div class="w3-padding w3-col mgt10">
+				<label class="w3-col m3 w3-right-align pdr10">P W :</label>
+				<input type="password" name="pw" id="pw" placeholder="비밀번호를 입력하세요!"
+				class="w3-col m7 w3-padding w3-text-gray w3-input w3-border">
+			</div>
+			<div class="w3-padding w3-col mgt10">
+				<label class="w3-col m3 w3-right-align pdr10">rePW :</label>
+				<input type="password" name="rpw" id="rpw" placeholder="비밀번호를 입력하세요!"
+				class="w3-col m7 w3-padding w3-text-gray w3-input w3-border">
+			</div>
+			<div class="w3-padding w3-col mgt10">
+				<label class="w3-col m3 w3-right-align pdr10">mail :</label>
+				<input type="text" name="mail" id="mail" placeholder="이메일을 입력하세요!"
+				class="w3-col m7 w3-padding w3-text-gray w3-input w3-border">
+			</div>
+			<div class="w3-padding w3-col mgt10">
+				<label class="w3-col m3 w3-right-align pdr10">phone :</label>
+				<input type="tel" name="hp" id="hp" placeholder="전화번호를 입력하세요!"
+				class="w3-col m7 w3-padding w3-text-gray w3-input w3-border">
+			</div>
+			<div class="w3-padding w3-col mgt10 mgb10">
+				<label class="w3-col m3 w3-right-align pdr10">gender :</label>
+					<form method="POST" action="" id="frm" name="frm">
+					<div class="w3-col m3 w3-center-align">
+						<input type="radio" id="gen" name="gen" value="남자" style="float: center;">
+							<label for="mgen">남자</label>
+					</div>
+					<div class="w3-col m3 w3-center-align">
+						<input type="radio" id="gen" name="gen" value="여자" style="float: center;">
+							<label for="wgen">여자</label>
+					</div>
+					</form>
+			</div>
+			<div class="w3-padding w3-col mgt10 mgb10">
+				<label class="w3-col m3 w3-right-align pdr10">아 바 타 :</label>
+					<form method="POST" action="" id="frm" name="frm">
+						<div style="position: relative; right: 10px;">
+							<label class="w3-col m2 w3-border pdt10">
+								<img src="../img/img_avatar1.png" style="width: 90px; height: 90px; border: 1px solid gray; display: inline-block;">
+								<input type="radio" id="gen" name="gen" value="남자1" style="position: relative; bottom: -100px; right: 350px; float: right;">
+							</label>
+							<label class="pdl10 w3-col m2 w3-border pdt10">
+								<img src="../img/img_avatar2.png" style="width: 90px; height: 90px; border: 1px solid gray; display: inline-block;">
+								<input type="radio" id="gen" name="gen" value="남자2" style="position: relative; bottom: -100px; right: 230px; float: right;">
+							</label>
+							<label class="pdl10 w3-col m2 w3-border pdt10">
+								<img src="../img/img_avatar3.png" style="width: 90px; height: 90px; border: 1px solid gray; display: inline-block">
+								<input type="radio" id="gen" name="gen" value="남자3" style="position: relative; bottom: -100px; right: 113px; float: right;">
+							</label>
+						</div>
+					</form>
+					<form method="POST" action="" id="frm" name="frm">
+						<div class="mgt30 mgb10 w3-right" style="position: relative; right: 70px;">
+							<label>
+								<img src="../img/img_avatar4.png" style="width: 90px; height: 90px; border: 1px solid gray;">
+								<input type="radio" id="gen" name="gen" value="여자1" style="position: relative; bottom: -100px; right: 290px; float: right;">
+							</label>
+							<label class="pdl10">
+								<img src="../img/img_avatar5.png" style="width: 90px; height: 90px; border: 1px solid gray;">
+								<input type="radio" id="gen" name="gen" value="여자2" style="position: relative; bottom: -100px; right: 172px; float: right;">
+							</label>
+							<label class="pdl10">
+								<img src="../img/img_avatar6.png" style="width: 90px; height: 90px; border: 1px solid gray;">
+								<input type="radio" id="gen" name="gen" value="여자3" style="position: relative; bottom: -100px; right: 51px; float: right;">
+							</label>
+						</div>
+					</form>
+			</div>
+		</div>
+			<div class="w3-col w3-center w3-margin-top w3-round-medium">
+					<div class="w3-col m4 w3-green w3-button w3-card-4">home</div>
+					<div class="w3-col m4 w3-orange w3-button w3-card-4">join</div>
+					<div class="w3-col m4 w3-blue w3-button w3-card-4">login</div>
+			</div>
+	</div>
+</body>
+</html>

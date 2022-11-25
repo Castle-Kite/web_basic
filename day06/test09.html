@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>구조 선택자</title>
+<style type="text/css">
+	li > a:first-child{/* li의 자식태그 중  a 전체 */
+		color: red;
+	}
+	li:first-child > a {/* 첫번째 a */
+		color: dodgerblue;
+		font-weight: bold;
+	}
+</style>
+</head>
+<body>
+	<ul>
+		<li><a>a 태그 1</a>
+		<li><a>a 태그 2</a>
+		<li><a>a 태그 3</a>
+		<li><a>a 태그 4</a>
+		<li><a>a 태그 5</a>
+	</ul>
+</body>
+</html>
